@@ -1,0 +1,146 @@
+body
+{
+    margin: 0%;
+    padding: 0;
+}
+
+.h1{
+    font-style: oblique;
+    font-size: 20px;
+    color: #ad1d1d;
+    justify-content: center;
+}
+
+.logo{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list
+{
+    display:flex;
+    list-style:none;
+    color: #ffffff;
+    justify-content: center;
+    width: auto;
+}
+
+.nav-list a
+{
+    color: #ad1d1d;
+    padding: 20px 10px;
+    font-size: 19px;
+    text-decoration: none;
+    font-style: italic;
+    border:1px solid white;
+    margin: 0px 10px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.header{
+    color: #ad1d1d;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.head{
+    color: #ad1d1d;
+    font-style: oblique;
+}
+
+.head2{
+    color: #ad1d1d;
+    font-style: oblique;
+    font-size: 27px;
+}
+
+.head3{
+    color: #ad1d1d;
+    font-style: oblique;
+    font-size: 27px;
+}
+
+.head4{
+    color: #ad1d1d;
+    font-style: oblique;
+    font-size: 27px;
+}
+
+.head5{
+    color: #ad1d1d;
+    font-style: oblique;
+    font-size: 27px;
+}
+
+.welcome-section
+{
+    background-color: #181719;
+    display:flex;
+    width:100%;
+    height:100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.images-grid
+{
+    display: flex;
+    margin-top: 10px;
+}
+
+.images-grid .img
+{
+    width: 45%;
+}
+
+.img img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+.img, .img-title 
+{
+    font-size: 17px;
+    text-align: center;
+    color: #ad1d1d;
+    font-style: italic;
+
+}
+
+body {
+    background-color: #181719;
+  }
+
+  @media screen and (min-width: 200px) {
+    body {
+      background-color: #181719;
+    }
+  }
+  
+  @media screen and (min-width: 400px) {
+    body {
+      background-color: #181719;
+    }
+  }
+  
+  @media screen and (min-width: 800px) {
+    body {
+      background-color: #181719;
+    }
+  }
+
+  @media screen and (min-width: 1600px) {
+    body {
+      background-color: #181719;
+    }
+  }
+  @media screen and (min-width: 3200px) {
+    body {
+      background-color: #181719;
+    }
+  }

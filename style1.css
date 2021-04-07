@@ -1,0 +1,152 @@
+body
+{
+    margin: 0%;
+    padding: 0;
+}
+
+.h1{
+    font-style: oblique;
+    font-size: 20px;
+    color: #ad1d1d;
+    justify-content: center;
+}
+
+.logo{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list
+{
+    display:flex;
+    list-style:none;
+    color: #ffffff;
+    justify-content: center;
+    width: auto;
+}
+
+.nav-list a
+{
+    color: #ad1d1d;
+    padding: 20px 10px;
+    font-size: 19px;
+    text-decoration: none;
+    font-style: italic;
+    border:1px solid white;
+    margin: 0px 10px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.welcome-section
+{
+    background-color: #181719;
+    display:flex;
+    width:100%;
+    height:100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.images-grid
+{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.images-grid .img
+{
+    width: 22%;
+}
+
+.img img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+.img, .img-title 
+{
+    font-size: 23px;
+    text-align: center;
+    color: #ad1d1d;
+    font-style: italic;
+
+}
+
+.contact-section
+{
+    background-color: #181719;
+    display:flex;
+    width:100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+}
+
+.contact-section-header
+{
+    color: #ad1d1d;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.contact-links
+{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    width:100%;
+    margin: 4rem 0;
+    flex-wrap: wrap;
+    color: #ad1d1d;
+    font-style: italic;
+}
+
+#footer
+{
+    border-top: 4px solid red;
+    background: #303835;   
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-style: oblique;
+}
+
+body {
+    background-color: #181719;
+  }
+
+  @media screen and (min-width: 200px) {
+    body {
+      background-color: #181719;
+    }
+  }
+  
+  @media screen and (min-width: 400px) {
+    body {
+      background-color: #181719;
+    }
+  }
+  
+  @media screen and (min-width: 800px) {
+    body {
+      background-color: #181719;
+    }
+  }
+
+  @media screen and (min-width: 1600px) {
+    body {
+      background-color: #181719;
+    }
+  }
+  @media screen and (min-width: 3200px) {
+    body {
+      background-color: #181719;
+    }
+  }
